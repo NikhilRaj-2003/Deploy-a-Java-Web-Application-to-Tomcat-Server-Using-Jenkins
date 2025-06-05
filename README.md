@@ -33,7 +33,7 @@ References
 *   **Jenkins** : [https://github.com/NikhilRaj-2003/java-web/blob/main/src/main/webapp/Installations%20/Jenkins/Jenkins%20Installation%20on%20Amazon-Linux-2.md](https://github.com/NikhilRaj-2003/java-web/blob/main/src/main/webapp/Installations%20/Jenkins/Jenkins%20Installation%20on%20Amazon-Linux-2.md)
 *   **Java Project** : [https://github.com/NikhilRaj-2003/java-web.git](https://github.com/NikhilRaj-2003/java-web.git)
 
-Step — 1 : Install Git into your Jenkins server
+ Step — 1 : Install Git into your Jenkins server
 -----------------------------------------------
 
 1.  install git and check the git version .
@@ -144,7 +144,7 @@ Step — 5 : Automate Build and Deploy using Github webhook
 *   Payload URL is **public ip if jenkins server.**
 
 ```
-http://<public ip address>:8080/github-webhook
+http://<public-ip address>:8080/github-webhook/
 ```
 
 *   Set content type as **application/JSON .**
